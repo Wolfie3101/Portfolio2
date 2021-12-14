@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="RPSLogic.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <img src="Images/Rock.png" class="Pic" id="Rock" onclick="Logic(0)"">
+
+      <img src="Images/paper.png" class="Pic" id="Paper" onclick="Logic(1)" />
+
+      <img src="Images/Scissors.png"class="Pic"id="Scissors"onclick="Logic(2)"/>
+    </div>
+
+    <br />
+    <br />
+
+    <div id="Result" class="Res"></div>
+
+    <br /><br />
+
+    <div id="ResultsTab" class="Res">
+        
+        
+        <!-- morem še naret da rezultat pol gre v bazo-->
+        <form action=”info.php” method=”post”>
+            <a id="PlayerWins">0</a> : <a id="ComputerWins">0</a>
+            <input type="submit"/>
+            
+    </div>
+    <br><br><br>
+    za naret še mam da se z bazo poveže
+    pa seveda lepše, to je samo prototip
+    <br><br>
+
+    <a href="../index.html">Back to the Homepage</a>
+   
+  </body>
+</html>

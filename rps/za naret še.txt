@@ -1,0 +1,6 @@
+povezat z bazo, met button ki pošlje podatke not v bazo
+
+drugi button kjer gre na novo stran(results.html) pokaže zadnje rezultate
+
+
+tudi naret animacije.
