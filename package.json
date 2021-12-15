@@ -1,0 +1,22 @@
+{
+  "name": "udemy-projects",
+  "version": "1.0.0",
+  "description": "My projects for the portfolio",
+  "main": "Node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wolfie3101/Portfolio2.git"
+  },
+  "author": "Aleksander Matjašič",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wolfie3101/Portfolio2/issues"
+  },
+  "homepage": "https://github.com/Wolfie3101/Portfolio2#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
