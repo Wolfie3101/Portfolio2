@@ -1,5 +1,6 @@
 //jshint esversion:6
 
+//to dvoje rabiš nujno vedno
 const express = require("express");
 const app = express();
 
